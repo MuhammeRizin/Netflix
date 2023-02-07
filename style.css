@@ -176,7 +176,7 @@ select option {
 
 @media screen and (max-width:659px) {
     .faq button {
-        width: 100%;
+        width: 80%;
     }
 
     .ans1,
@@ -197,22 +197,17 @@ select option {
     font-size: 1.2rem;
     padding-bottom: 20px;
     color: #fff;
+    text-align: center;
 }
 
-.email2 {
-    background: #fff;
-    height: 70px;
-    width: 50%;
-    display: flex;
-    border-radius: 4px;
-    overflow: hidden;
-}
 
 .email2 input {
     border: 0;
     outline: 0;
     margin-left: 20px;
-    flex: 1;
+    height: 4rem;
+    width: 30rem;
+    margin: 0;
 }
 
 .email2 .get-started {
@@ -222,7 +217,9 @@ select option {
     font-size: 1rem;
     color: #fff;
     padding: 15px 30px;
-    width: 30%;
+    width: 10rem;
+    height: 4rem;
+    margin: 0;
 
 }
 
